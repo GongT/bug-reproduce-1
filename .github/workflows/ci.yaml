@@ -24,7 +24,4 @@ jobs:
 
       - run: yarn
 
-      - run: yarn format --check
-      - run: yarn lint
-
-      - run: yarn build
+      - run: npx ttsc
