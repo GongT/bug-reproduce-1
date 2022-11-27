@@ -3,7 +3,7 @@
     "plugins": [
       {
         "transform": "@build-script/typescript-transformer-dual-package",
-        "verbose": false
+        "verbose": true
       },
       // Transform paths in output .js files
       {
